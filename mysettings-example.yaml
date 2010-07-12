@@ -1,0 +1,7 @@
+# Rename to mysettings.example after you're done
+# Authentication parameters
+oauth_consumer_key: "anonymous"
+oauth_consumer_secret: "anonymous"
+oauth_token_key: ""
+oauth_token_secret: ""
+

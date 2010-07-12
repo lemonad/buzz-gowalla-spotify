@@ -1,0 +1,4 @@
+oauth
+oauth2
+simplejson
+pyyaml
