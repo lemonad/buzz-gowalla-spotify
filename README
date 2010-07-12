@@ -1,0 +1,12 @@
+This application is pulling out Gowalla posts from Google Buzz that are made within 100m from the
+Spotify HQ in Stockholm (but could easily be made to support any location). We then find the
+latest Spotify URIs from those users and print them out.
+
+The Python API limits we've hit while making this were:
+* Unable to search for posts by user ID.
+* Search results does not contained 'published' or 'updated' dates.
+
+For Stockholm GTUG 20100712
+
+   Jonas Nockert
+   Jonas Beckman
