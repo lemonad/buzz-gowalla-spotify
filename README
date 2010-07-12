@@ -6,6 +6,10 @@ The Python API limits we've hit while making this were:
 * Unable to search for posts by user ID.
 * Search results does not contained 'published' or 'updated' dates.
 
+TODO: Limit listed Spotify URIs by location and date.
+TODO: Display more information about the Spotify links.
+
+
 For Stockholm GTUG 20100712
 
    Jonas Nockert
