@@ -41,7 +41,7 @@ for name in actor_names:
     spotify_links_search = buzz_client.search(query=query)
 
     for res in itertools.islice(spotify_links_search, 10):
-        res_json = json.loads(res.json)
+        # res_json = json.loads(res.json)
 
         # Parse the contents since this might be syndicated from
         # Twitter, last.fm, etc.
@@ -53,7 +53,7 @@ for name in actor_names:
                                  #,'published': res_json.published})
 
 # Present the Spotify links as rudimentary html
+print "<ul>"
 for link in spotify_links:
-    print "<ul>"
     print "<li><a href=\"%s\">%s</a></li>" % (link['uri'], link['actor_name'])
-    print "</ul>"
+print "</ul>"
